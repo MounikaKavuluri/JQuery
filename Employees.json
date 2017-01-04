@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Mounika",
+    "id": "1",
+    "dob": "21-03-1994",
+    "doj": "07-11-2016",
+    "designation": "Quality Analyst",
+    "experience": "2 years"
+  },
+  {
+    "name": "Shravya",
+    "id": "2",
+    "dob": "17-10-1994",
+    "doj": "07-11-2016",
+    "designation": "Quality Analyst",
+    "experience": "1 years"
+  },
+  {
+    "name": "Abdul",
+    "id": "3",
+    "dob": "11-04-1994",
+    "doj": "07-11-2016",
+    "designation": "Developer",
+    "experience": "3 years"
+  },
+  {
+    "name": "Arun",
+    "id": "4",
+    "dob": "12-07-1990",
+    "doj": "07-11-2016",
+    "designation": "Developer",
+    "experience": "3 years"
+  },
+  {
+    "name": "Purushotham",
+    "id": "5",
+    "dob": "07-12-1993",
+    "doj": "07-11-2016",
+    "designation": "Developer",
+    "experience": "2 years"
+  }
+]

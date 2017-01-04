@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="Script.js"></script>
+    <link rel="stylesheet" href="Styles.css">
+
+    <script>
+
+        jQuery(document).ready(function(){
+            //alert(" ############ ");
+            window.emp = getEmployees();
+            emp.loadEmployees();
+        });
+        function getDetails(input)
+        {
+            window.emp.getEmployees(input);
+        }
+    </script>
+
+</head>
+
+<body>
+<center> <br /><br />
+    <table id="employee">
+        <thead>
+        <tr>
+            <th> Id</th>
+            <th>Name</th>
+            <th>Date of Birth</th>
+            <th>Date of Joining</th>
+            <th>Designation</th>
+            <th>Experience</th>
+        </tr>
+        </thead>
+
+    </table>
+
+    <div id="details">
+
+    </div>
+</center>
+</body>
+</html>
+
